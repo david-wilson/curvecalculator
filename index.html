@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+    <head>
+        <title>Grade Curve Calculator</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+    <div id="content">
+        <h1>Grade Curve Calculator</h1>
+        <svg></svg>
+          <br>
+          <form class="form-inline">
+              <input type="text" class="input-small" name="name" placeholder="Name">
+              <input type="text" class="input-small" name="grade" placeholder="Grade(0-100)">
+              <button class="btn btn-primary" type="submit" name="add">Add</button>
+              <button class="btn" type="submit" name="curve">Curve</button>
+          </form>
+        <div id="table"></div>
+    </div>
+
+    <script src="http://d3js.org/d3.v2.min.js?2.10.0"></script>
+    <script src="app.js"></script>
+    </body>
+</html>
+
