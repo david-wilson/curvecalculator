@@ -3,6 +3,14 @@ body {
     text-align: center;
 }
 
+footer {
+    font: 14px sans-serif;
+}
+
+table {
+    margin-bottom: 20px;
+}
+
 .bar rect {
     fill: steelblue;
     shape-rendering: crispEdges;
@@ -22,4 +30,14 @@ body {
     width: 800px ;
     margin-left: auto ;
     margin-right: auto ;
+}
+
+.left {
+    text-align: left;
+}
+
+.text {
+    font: 18px sans-serif;
+    text-align: left;
+    margin: 25px 10px 20px 0px;
 }

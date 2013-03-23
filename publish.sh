@@ -1,0 +1,1 @@
+s3cmd sync --delete-removed --acl-public --reduced-redundancy _site/ s3://www.curvecalculator.com/ --verbose
