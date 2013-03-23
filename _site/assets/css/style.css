@@ -1,10 +1,10 @@
 body {
-    font: 10px sans-serif;
+    font: 14px sans-serif;
     text-align: center;
 }
 
-footer {
-    font: 14px sans-serif;
+svg {
+   font: 10px sans-serif; 
 }
 
 table {
